@@ -1,0 +1,11 @@
+prefix="CEF_INSTALL_DIR"
+libdir=${prefix}/lib
+includedir=${prefix}
+
+Name: libcef
+Description: chromium embedded framework
+Version: 3.3578.1860.g36610bd / Chromium 71.0.3578.80
+
+Libs: -L${libdir} -lcef -lcef_dll_wrapper -lX11
+Cflags: -I${includedir}
+
